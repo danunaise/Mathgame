@@ -52,6 +52,7 @@ resetButton.addEventListener('click', () => {
   questionCount = 0;
   countElement.innerText = `ตอบถูก: ${correctCount} / ${questionCount} ข้อ`;
   statusElement.innerText = '';
+  answerElement.value = '';
 });
 
 submitButton.addEventListener('click', () => {
