@@ -70,6 +70,7 @@ submitButton.addEventListener('click', () => {
     statusElement.innerText = 'คำตอบผิด';
     statusElement.style.color = 'red';
     statusElement.style.fontSize = '50px';
+    answerElement.value = '';
     countElement.innerText = `ตอบถูก: ${correctCount} / ${questionCount} ข้อ`;
   }
 });
